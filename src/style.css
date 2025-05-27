@@ -1,5 +1,52 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(1, 114, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#carta{
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    
+}
+#logo-posicion-normal{
+    font-size:50px;
+    margin: 5px;
+    padding-left: 10px;
+    width:100%;
+    }
+.numero-carta{
+    font-size:150px;
+    width:100%;
+    margin:auto;
+    justify-content: center;
+    align-content: center;
+}
+#logo-posicion-invertida{
+    transform: rotate(180deg);
+    font-size:50px;
+    margin: 5px;
+    padding-left: 10px;
+    width:100%;
+}
+.boton{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 15vw;
+    height: 10vh;
+    border-radius: 5px;
+    background-color: rgb(219, 180, 4);
+    font-weight: bold;
+    font-family: inherit;
+    font-size: large;
+
 }
